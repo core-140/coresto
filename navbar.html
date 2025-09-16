@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CORESTO</title>
+    <link rel="stylesheet" href="style.css?v=2.1">
+</head>
+<body>
+<!-- navbar.html -->
+<nav role="navigation">
+    <div id="menuToggle">
+        <input type="checkbox" id="menuCheckbox" />
+        <span></span>
+        <span></span>
+        <span></span>
+        <ul id="menu">
+            <li><label for="menuCheckbox"><a href="index.php">Home</a></label></li>
+            <li><label for="menuCheckbox"><a>Contact</a></label></li>
+            <p class="contact-number">+91 6238104899</p>
+            <li><a href="https://www.amazon.in/iPhone-16-Pro-Max-256/dp/B0DGHYDZR9" target="_blank">Socials</a></li>
+            <li><button class="waiter-btn" onclick="callWaiter()">Call for Waiter</button></li>
+        </ul>
+    </div>
+</nav>
+
+<script>
+    function callWaiter() {
+        alert("Waiter has been called! Someone will assist you shortly.");
+    }
+</script>
+</body>
+</html>
